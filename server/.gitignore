@@ -1,0 +1,5 @@
+node_modules/
+healthcoversim.db
+healthcoversim.db-journal
+healthcoversim.db-wal
+healthcoversim.db-shm
