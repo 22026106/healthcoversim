@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import NewQuotePage from './pages/NewQuotePage.jsx';
 import DetailPage from './pages/DetailPage.jsx';
 import ListPage from './pages/ListPage.jsx';
+import EditQuotePage from './pages/EditQuotePage.jsx';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/" element={<ListPage />} />
           <Route path="/new" element={<NewQuotePage />} />
           <Route path="/quotes/:id" element={<DetailPage />} />
+          <Route path="/quotes/:id/edit" element={<EditQuotePage />} />
         </Routes>
       </main>
 
