@@ -3,7 +3,7 @@ const EXTRAS_PRICES = { None: 0, Basic: 25, Standard: 45, Premium: 70 };
 const FAMILY_UPGRADE_FEE = 30;
 
 const LHC_STATEMENT =
-  'Lifetime Health Cover loading applies only to hospital cover. It does not apply to extras.';
+  'Lifetime Health Cover loading applies only to hospital cover. It does not apply to extras cover.';
 
 function adultCount(coverType) {
   return coverType === 'Single' ? 1 : 2;
